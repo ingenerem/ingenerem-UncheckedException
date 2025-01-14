@@ -12,7 +12,10 @@ public class Lab {
      * Notice that errors are separate from exceptions. Errors are external to Java and can occur when some external
      * event happens, like running out of computer memory.
      */
-    public void throwUncheckedException(){
+    public void throwUncheckedException (){
+
+      int res = Integer.parseInt("Hello");
+      System.out.println("This will never be reached "+ res);
 
     }
 }
